@@ -1,0 +1,18 @@
+<div class="col-lg-8">
+
+  <h2> Welcome to GameCity! Your Card Balance Amount is {{amount}}</h2>
+
+  <table >
+<tbody>
+ 
+    <tr *ngFor="let OnlineGame of games ">
+ <td>{{OnlineGame.id}})</td>
+ <td>{{OnlineGame.game_name}}</td>
+ <td>{{OnlineGame.amount}}</td>
+  <td>
+  <a href="">PlayNow</a>
+  </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
